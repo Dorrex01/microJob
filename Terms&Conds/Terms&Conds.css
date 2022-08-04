@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+:root{
+    --colorblue : #1C4DA0;
+    --colorcyan : #A1EDFF;
+    --greyText : #393939;
+    --white : #fff;
+    --background-color: #F3F3F3 ;
+}
+
+*{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: auto;
+    display: flex;
+}
+
+.left-part{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--colorblue) ;
+}
+
+i {
+    color: black;
+}
+
+.logo {
+    height: 20%;
+    width: 70%;
+    display: flex;
+    align-items: flex-end;
+}
+
+svg {
+    height: 100%;
+    width: 80%;
+}
+
+.steps{
+    height: 35%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.step {
+    height: 13%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--background-color);
+}
+
+.space {
+    height: 27%;
+    width: 89%;
+    border-left: solid 3px var(--colorcyan);
+}
+
+.box1 {
+    height: 38px;
+    width: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: var(--colorcyan);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    z-index: 2000;
+}
+
+.box2 {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: var(--colorblue);
+    border: 3px solid var(--colorcyan);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+}
+
+.check {
+    height: 80%;
+    width: 80%;
+}
+
+.square{
+    height: 40%;
+    width: 40%;
+}
+
+.e-mail{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorcyan);
+}
+
+.right-part {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 5%;
+    background-color: var(--background-color);
+}
+
+.welcome{
+    height: 22%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 3%;
+    color: var(--greyText);
+    font-size: 1.5rem;
+}
+
+.seller{
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    color: var(--greyText);
+}
+
+.h3{
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: bold;
+    color: black;
+}
+
+.text {
+    height: 59%;
+    width: 70%;
+    font-size: 1rem;
+    overflow-y: scroll;
+    scrollbar-color: var(--greyText) var(--background-color);
+    scrollbar-width: thin;
+    padding-right: 10%;
+}
+
+
+form{
+    height: 10%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agreement{
+    height: 60%;
+    width: 60%;
+}
+.submit-container{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button[type="submit"]{
+    height: 60%;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--colorblue);
+    color: var(--white);
+    font-size: 1rem;
+    font-family: "Inter";
+}
+
+button[type="submit"]:hover{
+    background-color: var(--white);
+    color: var(--colorblue);
+}
